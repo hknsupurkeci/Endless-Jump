@@ -32,7 +32,7 @@ public class AdManager : MonoBehaviour
     #region Interstitial
     // These ad units are configured to always serve test ads.
 #if UNITY_ANDROID
-    private string _adUnitId = "ca-app-pub-3940256099942544/1033173712";
+    private string _adUnitId = "ca-app-pub-9324963738813081/3804090355";
 #elif UNITY_IPHONE
   private string _adUnitId = "ca-app-pub-3940256099942544/4411468910";
 #else
@@ -134,7 +134,7 @@ public class AdManager : MonoBehaviour
     #region Banner
     // These ad units are configured to always serve test ads.
 #if UNITY_ANDROID
-    private string _adUnitIdBanner = "ca-app-pub-3940256099942544/6300978111";
+    private string _adUnitIdBanner = "ca-app-pub-9324963738813081/2362258004";
 #elif UNITY_IPHONE
   private string _adUnitIdBanner = "ca-app-pub-3940256099942544/2934735716";
 #else

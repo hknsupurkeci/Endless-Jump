@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     float rotationSpeed = 1f;
     public static bool start = false;
 
-    public Material materyal;
+    //public Material materyal;
 
     // Renk tonu aralýðý
     public float minRenkTonu = 0f;
@@ -49,18 +49,17 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-
-        #region Material Color
-        // Renk tonunu deðiþtirin.
-        h += renkTonuDegisimHizi * Time.deltaTime;
-        if (h > maxRenkTonu)
-        {
-            h = minRenkTonu;
-        }
-        Color materyalRengi = Color.HSVToRGB(h, s, v);
-        // Materyalin rengini güncelleyin.
-        materyal.color = materyalRengi;
-        #endregion
+        //#region Material Color
+        //// Renk tonunu deðiþtirin.
+        //h += renkTonuDegisimHizi * Time.deltaTime;
+        //if (h > maxRenkTonu)
+        //{
+        //    h = minRenkTonu;
+        //}
+        //Color materyalRengi = Color.HSVToRGB(h, s, v);
+        //// Materyalin rengini güncelleyin.
+        //materyal.color = materyalRengi;
+        //#endregion
     }
     // Declare a private variable to hold the time of the last update
     private float lastUpdateTime = 0.0f;
